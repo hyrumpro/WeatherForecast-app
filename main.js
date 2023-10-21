@@ -1,4 +1,4 @@
-import { getWeather, updateWeather } from 'weather.js';
+import { getWeather, updateWeather } from './weather.js';
 
 document.getElementById('getWeatherButton').addEventListener('click', updateWeather);
 
