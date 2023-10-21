@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#locationInput {
+    width: 70%;
+}
+
+#getWeatherButton {
+    width: 30%;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #007bff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+button {
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #0069d9;
+    color: #ffffff;
+}
